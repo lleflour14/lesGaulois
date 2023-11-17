@@ -25,9 +25,16 @@ public class Village {
         if(g.getMetier().equals("Chef")){
             throw new ChefException("Il ne peut pas y avoir 2 chefs dans le même village");
         }
-        else {
-            lesGaulois.add(g);
+        for(Gaulois g1 : lesGaulois) {
+            if (g.getNom().equals(g1)){
+                throw new ChefException("Il est déjà dans le village");
+            }
+            else {
+                lesGaulois.add(g);
+
+            }
         }
+
 
     }
 }
