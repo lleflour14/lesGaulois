@@ -13,5 +13,9 @@ public class Romain extends Humain{
         return super.toString() + "- grade= " + graderomain;
     }
 
+    public Grade getGraderomain() {
+        return graderomain;
+
+    }
 }
 

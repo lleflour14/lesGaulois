@@ -21,8 +21,11 @@ public class Camp {
                 '}';
     }
 
-    public void ajouterRomain(Romain r){
-        lesRomains.add(r);
-
+    public void ajouterRomain(Romain r)throws ChefException {
+        if (r.getGraderomain().equals("Chef")) {
+            throw new ChefException("Il ne peut pas y avoir 2 chefs dans le même camp");
+        } else {
+            lesRomains.add(r);
+        }
     }
 }
