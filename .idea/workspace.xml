@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="Romain/Camp">
+    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="Romain/Camp &quot;Finis&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
     </list>
@@ -103,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700214485934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Romain/Camp">
+      <option name="closed" value="true" />
+      <created>1700215060167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215060167</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Romain/Camp &quot;Finis&quot;">
+      <option name="closed" value="true" />
+      <created>1700215231874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700215231874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +140,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GOLOI" />
     <MESSAGE value="Romain/Camp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Romain/Camp" />
+    <MESSAGE value="Romain/Camp &quot;Finis&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Romain/Camp &quot;Finis&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
