@@ -15,6 +15,7 @@ public class Romain extends Humain{
 
     public Grade getGraderomain() {
         return graderomain;
+
     }
 }
 
