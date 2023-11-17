@@ -9,6 +9,7 @@ public class Druide extends Gaulois{
         super(nom, force, metier);
         this.dosePotionMin = dosePotionMin;
         this.dosePotionMax=dosePotionMax;
+        System.out.println("ff");
     }
 
     @Override

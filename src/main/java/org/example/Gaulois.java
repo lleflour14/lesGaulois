@@ -1,11 +1,14 @@
 package org.example;
 
-public class Gaulois extends Humain{
+public class Gaulois extends Humain implements Rencontre{
 
     private String metier;
 
     public Gaulois(String nom, int force, String metier) {
-        super(nom, force);
+        super(nom, 1);
+        if(nom.equals("Obélix")){
+            force=15;
+        }
         this.metier = metier;
     }
 
@@ -17,5 +20,10 @@ public class Gaulois extends Humain{
 
     public String getMetier() {
         return metier;
+    }
+
+    @Override
+    public void seRencontrer(Humain h) {
+
     }
 }
