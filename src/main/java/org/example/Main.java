@@ -8,4 +8,7 @@ public class Main {
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
     }
+    Romain caius= new.Romain("Caius","soldat" );
+    System.out.println(caius);
+
 }

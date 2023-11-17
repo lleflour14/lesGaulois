@@ -17,7 +17,5 @@ public class Romain extends Humain{
         return graderomain;
 
     }
-   Romain Caius= new.Romain("Caius","soldat" );
-    System.out.println(Caius);
 }
 
