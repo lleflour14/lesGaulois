@@ -2,7 +2,7 @@ package org.example;
 
 public class Humain {
     private String nom;
-    private int force;
+    protected int force;
     public Humain(String nom, int force){
         this.force=force;
         this.nom=nom;

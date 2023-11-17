@@ -1,14 +1,15 @@
 package org.example;
-
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Entrée with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Romain caius= new Romain("Caius",Grade.soldat );
+        System.out.println(caius);
+        Gaulois asterix = new Gaulois("Asterix", ("Héros"));
+        Gaulois obelix = new Gaulois("Obélix", "Tailleur de ménhir ?");
+        System.out.println(asterix);
+        System.out.println(obelix);
+        Druide panoramix = new Druide("Panoramix","Druide", 7, 20);
+        System.out.println(panoramix);
     }
-    Romain caius= new.Romain("Caius","soldat" );
-    System.out.println(caius);
+
 
 }

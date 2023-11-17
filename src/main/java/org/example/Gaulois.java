@@ -4,7 +4,7 @@ public class Gaulois extends Humain implements Rencontre{
 
     private String metier;
 
-    public Gaulois(String nom, int force, String metier) {
+    public Gaulois(String nom, String metier) {
         super(nom, 1);
         if(nom.equals("Obélix")){
             force=15;
