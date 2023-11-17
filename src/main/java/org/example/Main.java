@@ -7,7 +7,7 @@ public class Main {
         Gaulois obelix = new Gaulois("Obélix", "Tailleur de ménhir ?");
         System.out.println(asterix);
         System.out.println(obelix);
-        Druide panoramix = new Druide("Panoramix","Druide", 7, 20);
+        Druide panoramix = new Druide("Panoramix", 7, 20);
         System.out.println(panoramix);
     }
 
