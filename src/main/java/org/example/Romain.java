@@ -6,8 +6,13 @@ public class Romain extends Humain{
     public Romain(String nom, int force, Grade graderomain){
         super (nom, force);
         this.graderomain = graderomain;
-//
-
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "- grade= " + graderomain;
+    }
+
+    c
 }
 
