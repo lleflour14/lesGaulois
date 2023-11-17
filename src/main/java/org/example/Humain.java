@@ -18,7 +18,7 @@ public class Humain {
 
     @Override
     public String toString() {
-        return getClass().getName() +
+        return getClass().getCanonicalName() +
                 " : nom= " + nom +
                 " - force= " + force;
     }

@@ -24,10 +24,28 @@ public class Romain extends Humain implements Rencontre{
         if(r.graderomain.equals(Grade.chef)){
             ret= false;
         }
+        if(r.graderomain.equals(Grade.centurion)){
+            if(graderomain.equals(Grade.chef)){
+                ret= true;
+            }
+            else{
+                ret= false;
+            }
+        }
         return ret;
     }
     @Override
     public void seRencontrer(Humain h) {
+        //this est plus gradé que h
+        if(plusOuMoinsGrade((Romain) h)==true){
+            System.out.println("Je te salue " + this.getGraderomain()+ this.getNom() +", je suis " + h.getNom() + ", moi c’est " + this.getNom());
+            System.out.println("C’est à moi à te saluer" + ((Romain) h).getGraderomain()+ this.getNom() +", je suis " + this.getNom());
+        }
+        else{
+            System.out.println("Je te salue " + ((Romain) h).getGraderomain()+ h.getNom() +", je suis " + this.getNom() + ", moi c’est " + h.getNom());
+            System.out.println("C’est à moi à te saluer" + this.getGraderomain()+ h.getNom() +", je suis " + h.getNom());
+
+        }
 
     }
 }
