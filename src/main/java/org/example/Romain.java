@@ -4,7 +4,7 @@ public class Romain extends Humain{
     private Grade graderomain;
 
     public Romain(String nom, int force, Grade graderomain){
-        super (nom, force);
+        super (nom, (int)(Math.random()*(4)) +1);
         this.graderomain = graderomain;
     }
 
@@ -17,5 +17,7 @@ public class Romain extends Humain{
         return graderomain;
 
     }
+   Romain Caius= new.Romain("Caius","soldat" );
+    System.out.println(Caius);
 }
 

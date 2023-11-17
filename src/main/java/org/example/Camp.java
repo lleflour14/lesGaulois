@@ -1,6 +1,7 @@
 package org.example;
 import java.util.ArrayList;
 
+
 public class Camp {
     private ArrayList<Romain> lesRomains;
     private String nom;
