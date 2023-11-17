@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="GOLOI">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="Romain/Camp">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700213314207</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Romain/Camp">
+      <option name="closed" value="true" />
+      <created>1700214485934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700214485934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +122,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GOLOI" />
-    <option name="LAST_COMMIT_MESSAGE" value="GOLOI" />
+    <MESSAGE value="Romain/Camp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Romain/Camp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
