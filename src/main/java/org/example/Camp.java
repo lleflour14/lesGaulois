@@ -7,10 +7,19 @@ public class Camp {
     private String nom;
     private Romain chef;
 
-    public Camp(ArrayList<Romain> lesRomains, String nom, Romain chef){
+    public Camp(ArrayList<Romain> lesRomains, String nom, Romain chef) throws ChefException {
         this.lesRomains = lesRomains;
         this.nom=nom;
         this.chef = chef;
+        int i=0;
+        for(Romain g : lesRomains){
+            if(g.getGraderomain()== Grade.chef){
+                i+=1;
+            }
+        }
+        if(i>1){
+            throw new ChefException("Il y a 2 chefs dans le village");
+        }
     }
 
     @Override
