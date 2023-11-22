@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws ChefException {
-        Romain caius= new Romain("Caius",Grade.soldat );
-        System.out.println(caius);
+
         Gaulois abraracourcix = new Gaulois("Abraracourcix", "Chef");
         Gaulois agecanonix = new Gaulois("Agecanonix", "Retraité");
         Gaulois assurancetourix = new Gaulois("Assurancetourix", "Barde");
@@ -31,10 +30,28 @@ public class Main {
         lesGaulois.add(ordralbabétix);
         lesGaulois.add(falbala);
         lesGaulois.add(panoramix);
-
         Village irreductible = new Village( lesGaulois, abraracourcix);
-        System.out.println(irreductible);
+        abraracourcix.seRencontrer(abraracourcix);
 
+        Romain caiusobtus = new Romain("Caius Obtus", Grade.chef);
+        Romain brutus = new Romain("Brutus", Grade.centurion);
+        Romain briseradius = new Romain("Briseradius", Grade.soldat);
+        Romain caligulaminus = new Romain("Caligula Minus", Grade.soldat);
+        Romain chorus = new Romain("Chorus", Grade.centurion);
+        Romain milexcus = new Romain("Milexcus", Grade.soldat);
+
+        ArrayList<Romain> lesRomains = new ArrayList<Romain>();
+        lesRomains.add(caiusobtus);
+        lesRomains.add(brutus);
+        lesRomains.add(briseradius);
+        lesRomains.add(caligulaminus);
+        lesRomains.add(chorus);
+        lesRomains.add(milexcus);
+
+
+        Camp babaorum = new Camp(lesRomains, "Babaorum", caiusobtus);
+        System.out.println(babaorum);
+        System.out.println(irreductible);
     }
 
 

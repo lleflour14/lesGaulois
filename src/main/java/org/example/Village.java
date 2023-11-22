@@ -15,10 +15,7 @@ public class Village {
 
     @Override
     public String toString() {
-        return "Village{" +
-                "lesGaulois=" + lesGaulois +
-                ", chef=" + chef +
-                '}';
+        return "Chef= " + chef.getNom() + "les habitants= "+lesGaulois;
     }
 
     public void ajouterGaulois(Gaulois g)throws ChefException{

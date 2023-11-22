@@ -15,11 +15,7 @@ public class Camp {
 
     @Override
     public String toString() {
-        return "Camp{" +
-                ", nom='" + nom + '\'' +
-                ", chef=" + chef + + '\'' +
-                "lesRomains=" + lesRomains +
-                '}';
+        return nom + " Le chef= " + chef.getNom() + "les membres= " + lesRomains;
     }
 
     public void ajouterRomain(Romain r)throws ChefException {
