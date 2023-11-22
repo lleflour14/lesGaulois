@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="Irreductible Arraylist" />
+    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="chgt village">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RencontreException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700225476760</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="chgt village">
+      <option name="closed" value="true" />
+      <created>1700659740560</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700659740560</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

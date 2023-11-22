@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws ChefException {
+    public static void main(String[] args) throws ChefException, RencontreException {
 
         Gaulois abraracourcix = new Gaulois("Abraracourcix", "Chef");
         Gaulois agecanonix = new Gaulois("Agecanonix", "Retraité");
