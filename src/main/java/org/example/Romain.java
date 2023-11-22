@@ -43,7 +43,7 @@ public class Romain extends Humain implements Rencontre{
         }
         else{
             System.out.println("Je te salue " + ((Romain) h).getGraderomain()+ h.getNom() +", je suis " + this.getNom());
-            System.out.println("C’est à moi à te saluer" + this.getGraderomain()+ this.getNom() +", je suis " + h.getNom());
+            System.out.println("C’est à moi à te saluer " + this.getGraderomain()+" " + this.getNom() +", je suis " + h.getNom());
 
         }
 

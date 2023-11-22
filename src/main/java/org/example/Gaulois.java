@@ -24,6 +24,6 @@ public class Gaulois extends Humain implements Rencontre{
 
     @Override
     public void seRencontrer(Humain h) {
-        System.out.println("Bonjour, je suis " + h.getNom() + '\''+ "Bonjour" + h.getNom() + ", moi c’est " + this.getNom());
+        System.out.println("Bonjour, je suis " + h.getNom() + '\''+ "Bonjour " + h.getNom() + ", moi c’est " + this.getNom());
     }
 }
