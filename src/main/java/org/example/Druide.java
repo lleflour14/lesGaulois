@@ -12,6 +12,14 @@ public class Druide extends Gaulois{
         System.out.println("ff");
     }
 
+    public int getDosePotionMin() {
+        return dosePotionMin;
+    }
+
+    public int getDosePotionMax() {
+        return dosePotionMax;
+    }
+
     @Override
     public String toString() {
         return super.toString() +
