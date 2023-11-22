@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="test" />
+    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="chgt village">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RencontreException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +73,6 @@
       <workItem from="1700234110820" duration="617000" />
       <workItem from="1700389788076" duration="240000" />
       <workItem from="1700657515036" duration="1725000" />
-      <workItem from="1700659254646" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary="GOLOI">
       <option name="closed" value="true" />
@@ -168,31 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700225476760</updated>
     </task>
-    <task id="LOCAL-00014" summary="test">
+    <task id="LOCAL-00014" summary="chgt village">
       <option name="closed" value="true" />
-      <created>1700659288084</created>
+      <created>1700659740560</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1700659288084</updated>
+      <updated>1700659740560</updated>
     </task>
-    <task id="LOCAL-00015" summary="test">
-      <option name="closed" value="true" />
-      <created>1700659524997</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1700659524997</updated>
-    </task>
-    <task id="LOCAL-00016" summary="test">
-      <option name="closed" value="true" />
-      <created>1700659718900</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1700659718901</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +209,7 @@
     <MESSAGE value="Romain/Camp &quot;Finis&quot;" />
     <MESSAGE value="test print" />
     <MESSAGE value="Irreductible Arraylist" />
-    <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="chgt village" />
+    <option name="LAST_COMMIT_MESSAGE" value="chgt village" />
   </component>
 </project>

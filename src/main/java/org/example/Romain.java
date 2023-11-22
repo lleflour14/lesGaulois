@@ -35,17 +35,23 @@ public class Romain extends Humain implements Rencontre{
         return ret;
     }
     @Override
-    public void seRencontrer(Humain h) {
-        //this est plus gradé que h
-        if(plusOuMoinsGrade((Romain) h)==true){
-            System.out.println("Je te salue " + this.getGraderomain()+ " "+ this.getNom() +", je suis " + h.getNom());
-            System.out.println("C’est à moi à te saluer " + ((Romain) h).getGraderomain()+ " " + ((Romain) h).getNom() +", je suis " + this.getNom());
+    public void seRencontrer(Humain h) throws RencontreException {
+        if(h instanceof Romain){
+            //this est plus gradé que h
+            if(plusOuMoinsGrade((Romain) h)==true){
+                System.out.println("Je te salue " + this.getGraderomain()+ " "+ this.getNom() +", je suis " + h.getNom());
+                System.out.println("C’est à moi à te saluer " + ((Romain) h).getGraderomain()+ " " + ((Romain) h).getNom() +", je suis " + this.getNom());
+            }
+            else{
+                System.out.println("Je te salue " + ((Romain) h).getGraderomain()+ h.getNom() +", je suis " + this.getNom());
+                System.out.println("C’est à moi à te saluer " + this.getGraderomain()+" " + this.getNom() +", je suis " + h.getNom());
+
+            }
         }
         else{
-            System.out.println("Je te salue " + ((Romain) h).getGraderomain()+ h.getNom() +", je suis " + this.getNom());
-            System.out.println("C’est à moi à te saluer " + this.getGraderomain()+" " + this.getNom() +", je suis " + h.getNom());
-
+            throw new RencontreException("Un romain ne peut pas rencontrer un Gaulois");
         }
+
 
     }
 }
