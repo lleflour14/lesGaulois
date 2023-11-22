@@ -53,7 +53,7 @@ public class Main {
         System.out.println(babaorum);
         System.out.println(irreductible);
         abraracourcix.seRencontrer(abraracourcix);
-        caiusobtus.seRencontrer(brutus);
+        caiusobtus.seRencontrer(abraracourcix);
 
 
 
