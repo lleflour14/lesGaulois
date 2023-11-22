@@ -26,6 +26,10 @@ public class Village {
         return "Chef= " + chef.getNom() + "les habitants= "+lesGaulois;
     }
 
+    public ArrayList<Gaulois> getLesGaulois() {
+        return lesGaulois;
+    }
+
     public void ajouterGaulois(Gaulois g)throws ChefException{
         if(g.getMetier().equals("Chef")){
             throw new ChefException("Il ne peut pas y avoir 2 chefs dans le même village");
@@ -41,6 +45,7 @@ public class Village {
 
             }
         //}
+
 
 
     }

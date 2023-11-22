@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="chgt village">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RencontreException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rencontre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bataille.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bataille.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Camp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Village.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Village.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

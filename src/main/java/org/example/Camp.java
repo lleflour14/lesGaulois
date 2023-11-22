@@ -34,4 +34,8 @@ public class Camp {
             lesRomains.add(r);
         }
     }
+
+    public ArrayList<Romain> getLesRomains() {
+        return lesRomains;
+    }
 }
