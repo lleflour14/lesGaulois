@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="Irreductible Arraylist" />
+    <list default="true" id="4c91efb6-15f9-41ce-ba5a-eb71c7b95c17" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Romain.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +64,7 @@
       <workItem from="1700234110820" duration="617000" />
       <workItem from="1700389788076" duration="240000" />
       <workItem from="1700657515036" duration="1725000" />
+      <workItem from="1700659254646" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="GOLOI">
       <option name="closed" value="true" />
@@ -167,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700225476760</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test">
+      <option name="closed" value="true" />
+      <created>1700659288084</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1700659288084</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test">
+      <option name="closed" value="true" />
+      <created>1700659524997</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700659524997</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +209,7 @@
     <MESSAGE value="Romain/Camp &quot;Finis&quot;" />
     <MESSAGE value="test print" />
     <MESSAGE value="Irreductible Arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Irreductible Arraylist" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
