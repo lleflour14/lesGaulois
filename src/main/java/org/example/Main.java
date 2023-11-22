@@ -31,7 +31,7 @@ public class Main {
         lesGaulois.add(falbala);
         lesGaulois.add(panoramix);
         Village irreductible = new Village( lesGaulois, abraracourcix);
-        abraracourcix.seRencontrer(abraracourcix);
+
 
         Romain caiusobtus = new Romain("Caius Obtus", Grade.chef);
         Romain brutus = new Romain("Brutus", Grade.centurion);
@@ -52,6 +52,11 @@ public class Main {
         Camp babaorum = new Camp(lesRomains, "Babaorum", caiusobtus);
         System.out.println(babaorum);
         System.out.println(irreductible);
+        abraracourcix.seRencontrer(abraracourcix);
+        caiusobtus.seRencontrer(brutus);
+
+
+
     }
 
 
