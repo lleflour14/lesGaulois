@@ -39,7 +39,7 @@ public class Romain extends Humain implements Rencontre{
         //this est plus gradé que h
         if(plusOuMoinsGrade((Romain) h)==true){
             System.out.println("Je te salue " + this.getGraderomain()+ " "+ this.getNom() +", je suis " + h.getNom());
-            System.out.println("C’est à moi à te saluer" + ((Romain) h).getGraderomain()+ ((Romain) h).getNom() +", je suis " + this.getNom());
+            System.out.println("C’est à moi à te saluer " + ((Romain) h).getGraderomain()+ " " + ((Romain) h).getNom() +", je suis " + this.getNom());
         }
         else{
             System.out.println("Je te salue " + ((Romain) h).getGraderomain()+ h.getNom() +", je suis " + this.getNom());
