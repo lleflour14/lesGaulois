@@ -7,10 +7,18 @@ public class Village {
     private ArrayList<Gaulois> lesGaulois;
     private Gaulois chef;
 
-    public Village(ArrayList<Gaulois> lesGaulois, Gaulois chef) {
+    public Village(ArrayList<Gaulois> lesGaulois, Gaulois chef) throws ChefException {
         this.lesGaulois = lesGaulois;
         this.chef = chef;
-        lesGaulois.add(chef);
+        int i=0;
+        for(Gaulois g : lesGaulois){
+            if(g.getMetier().equals("Chef")){
+                i+=1;
+            }
+        }
+        if(i>1){
+            throw new ChefException("Il y a 2 chefs dans le village");
+        }
     }
 
     @Override
