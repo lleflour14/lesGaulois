@@ -15,17 +15,17 @@ public class Main {
         Gaulois tragicomix = new Gaulois("Tragicomix", "Beau Gosse");
         Gaulois ordralbabétix = new Gaulois("Ordralbabétix", "poissonnier");
         Gaulois falbala = new Gaulois("Falbala", "fiancée");
-        Druide panoramix = new Druide("Panoramix", 7, 20);
+        Druide panoramix = new Druide("Panoramix", 5, 10);
 
         System.out.println(panoramix);
         ArrayList<Gaulois> lesGaulois = new ArrayList<Gaulois>();
         lesGaulois.add(abraracourcix);
-        lesGaulois.add(obelix);
         lesGaulois.add(agecanonix);
         lesGaulois.add(assurancetourix);
         lesGaulois.add(bonemine);
         lesGaulois.add(asterix);
         lesGaulois.add(cétautomatix);
+        lesGaulois.add(obelix);
         lesGaulois.add(tragicomix);
         lesGaulois.add(ordralbabétix);
         lesGaulois.add(falbala);
@@ -55,7 +55,8 @@ public class Main {
         abraracourcix.seRencontrer(abraracourcix);
         caiusobtus.seRencontrer(brutus);
         Bataille b = new Bataille(irreductible,babaorum,panoramix);
-        b.strategie1();
+       // b.strategie1();
+        System.out.println(b.strategie1());
 
 
 

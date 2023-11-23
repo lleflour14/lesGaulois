@@ -19,7 +19,7 @@ public class Bataille {
         this.mechantsBataille=new ArrayList<>();
 
         for (Gaulois g : gentils.getLesGaulois()) {
-            if (g.getMetier() != "Druide" || g.getMetier() != "Chef") {
+            if (g.getMetier() != "Druide" && g.getMetier() != "Chef") {
                 gentilsBataille.add(g);
             }
         }
@@ -33,7 +33,7 @@ public class Bataille {
     }
 
     public void distributionPotion() {
-        int qualite = druideBataille.getDosePotionMin() + (int) Math.random() * ((druideBataille.getDosePotionMax() - druideBataille.getDosePotionMin()) + 1);
+        int qualite = druideBataille.getDosePotionMin() + (int) (Math.random() * ((druideBataille.getDosePotionMax() - druideBataille.getDosePotionMin()) + 1));
         for (Gaulois g : gentilsBataille) {
             if (g.getForce() < 5) {
                 g.setForce(g.getForce() + qualite);
@@ -44,33 +44,42 @@ public class Bataille {
     }
 
     public String seBagarre(Gaulois g, Romain r) {
-        r.setForce(r.getForce() - g.getForce() / 6);
-        g.setForce(g.getForce() - r.getForce());
+        r.setForce(r.getForce() - (g.getForce()/6));
+        if(r.getForce()>0) {
+            g.setForce(g.getForce() - r.getForce());
+        }
         return "Claque";
     }
 
+    public boolean lesRomainsPerdu(){
+        int i=0;
+        for (Romain r : mechantsBataille) {
+            if (r.getForce() > 0) {
+                i+=1;
+            }
+        }
+        if(i>0){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
     public String strategie1() {
         for (Gaulois g : gentilsBataille) {
-            while (g.getForce() > 0) {
+            while (g.getForce() > 0 && lesRomainsPerdu()==false) {
                 for (Romain r : mechantsBataille) {
-                    while (r.getForce() > 0) {
-                        System.out.println("test");
+                    while (r.getForce() > 0 && g.getForce() > 0) {
                         seBagarre(g, r);
+                        System.out.println(seBagarre(g,r));
                     }
+
+
                 }
             }
         }
-        for (Gaulois g : gentilsBataille) {
-            if (g.getForce() == 0) {
-                gentilsBataille.remove(g);
-            }
-        }
-        for (Romain r : mechantsBataille) {
-            if (r.getForce() == 0) {
-                mechantsBataille.remove(r);
-            }
-        }
-        if (mechantsBataille.isEmpty()){
+
+        if (lesRomainsPerdu()){
             return "Les Gaulois ont gagné!!";
         }
         else{
