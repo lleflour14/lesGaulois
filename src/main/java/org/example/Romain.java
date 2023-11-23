@@ -35,7 +35,10 @@ public class Romain extends Humain implements Rencontre{
         return ret;
     }
     @Override
-    public void seRencontrer(Humain h) throws RencontreException {
+    public void seRencontrer(Humain h) throws RencontreException, soiMemeException {
+        if(h.getNom().equals(this.getNom())){
+            throw new soiMemeException("Un romain ne peut se rencontrer soi-même");
+        }
         if(h instanceof Romain){
             //this est plus gradé que h
             if(plusOuMoinsGrade((Romain) h)==true){

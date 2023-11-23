@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) throws ChefException, RencontreException {
+    public static void main(String[] args) throws ChefException, RencontreException, soiMemeException {
 
         Gaulois abraracourcix = new Gaulois("Abraracourcix", "Chef");
         Gaulois agecanonix = new Gaulois("Agecanonix", "Retraité");
@@ -52,7 +52,7 @@ public class Main {
         Camp babaorum = new Camp(lesRomains, "Babaorum", caiusobtus);
         System.out.println(babaorum);
         System.out.println(irreductible);
-        abraracourcix.seRencontrer(abraracourcix);
+        abraracourcix.seRencontrer(obelix);
         caiusobtus.seRencontrer(brutus);
         Bataille b = new Bataille(irreductible,babaorum,panoramix);
         System.out.println(b.strategie1());
