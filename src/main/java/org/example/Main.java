@@ -55,7 +55,6 @@ public class Main {
         abraracourcix.seRencontrer(abraracourcix);
         caiusobtus.seRencontrer(brutus);
         Bataille b = new Bataille(irreductible,babaorum,panoramix);
-       // b.strategie1();
         System.out.println(b.strategie1());
 
 

@@ -9,7 +9,6 @@ public class Druide extends Gaulois{
         super(nom, "Druide");
         this.dosePotionMin = dosePotionMin;
         this.dosePotionMax=dosePotionMax;
-        System.out.println("ff");
     }
 
     public int getDosePotionMin() {
